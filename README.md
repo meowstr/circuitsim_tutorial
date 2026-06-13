@@ -85,4 +85,28 @@ v1, v2, v3 = 2.816510 V  1.259826 V  0.633019 V
 i1, i2, i3, i4, i5 = 2.183490 mA  2.183490 mA  7.740174 mA  7.740174 mA  9.923664 mA
 ```
 
+and the full output of `main.cpp` is:
+```
+root_newton: F(0.000000) = 0.005000 F(0.000000) = 0.009000 F(0.000000) = 0.000000
+root_newton_step: backtrack
+root_newton_step: backtrack
+root_newton_step: backtrack
+root_newton: F(0.625000) = 0.004375 F(1.125000) = 0.007826 F(0.625000) = -0.007152
+root_newton_step: backtrack
+root_newton_step: backtrack
+root_newton_step: backtrack
+root_newton_step: backtrack
+root_newton: F(0.761740) = 0.004102 F(1.291371) = -0.029900 F(0.625043) = 0.030532
+root_newton: F(2.817182) = 0.000000 F(1.280822) = -0.009268 F(0.634363) = 0.008699
+root_newton: F(2.816520) = 0.000000 F(1.265881) = -0.002119 F(0.633040) = 0.002104
+root_newton: F(2.816509) = 0.000000 F(1.260496) = -0.000211 F(0.633018) = 0.000211
+root_newton: F(2.816510) = -0.000000 F(1.259835) = -0.000003 F(0.633019) = 0.000003
+root_newton: F(2.816510) = -0.000000 F(1.259826) = -0.000000 F(0.633019) = 0.000000
+root_newton: F(2.816510) = 0.000000 F(1.259826) = 0.000000 F(0.633019) = -0.000000
+root_newton: F(2.816510) = 0.000000 F(1.259826) = 0.000000 F(0.633019) = -0.000000
+
+2.816510 V  1.259826 V  0.633019 V
+2.183490 mA  2.183490 mA  7.740174 mA  7.740174 mA  9.923664 mA
+```
+
 Hope the rest of your day goes well, and thanks for reading!
