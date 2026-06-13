@@ -18,7 +18,7 @@ The two diodes are what make this circuit worth modeling. They are nonlinear (ex
 
 Where 
 ```
-I_s = 10e-13 A
+I_s = 1E-13 A
 V_T = 25 mV
 ```
 
